@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+#btn{
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    border:none;
+    outline: none;
+    border-radius: 10px;
+    position: absolute;
+}
+
+
+.dark{
+    background-color: black;
+    opacity: 1;
+    pointer-events: auto;
+    color: white;
+    transition: 0.5s;
+}
+
+#sun{
+    color: yellow;
+    font-size: 20px;
+}
+
+#moon{
+    color: #000;
+    font-size: 20px;
+}
+
+.switch{
+    height: 100%;
+    width: 50%;
+    top: 0;
+    left: 0;
+    background-color: #726d6e;
+    position: absolute;
+    border-radius: 10px;
+    
+}
+
+.slide .switch{
+    left: 50%;
+}
