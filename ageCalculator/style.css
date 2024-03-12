@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Madimi+One&family=Poppins:wght@300;500;700&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Madimi One", sans-serif;
+   font-weight: 500;
+   
+
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color:rgb(255, 234, 167);
+    display: grid;
+    place-items: center;
+    
+
+}
+
+.age-container{
+    height: 350px;
+    width: 300px;
+    background: rgb(255, 187, 100);
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 300px 15px rgba(255,104,104,1);
+    -moz-box-shadow: 0px 0px 300px 15px rgba(255,104,104,1);
+    box-shadow: 0px 0px 300px 15px rgba(255,104,104,1);
+    border:  1px solid rgb(255, 104, 104);
+}
+
+.age-container-title{
+    text-align: center; 
+    margin: 10px ;
+}
+
+.age-container-data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 45px;
+    text-align: center;
+    font-size: 20px
+    
+}
+
+input{
+    padding: 1px 4px;
+    width: 60px;
+    height: 30px;
+    border-radius:8px ;
+    border:  1px solid rgb(255, 104, 104);
+    text-align: center;
+    background-color: rgb(220, 255, 183);
+
+}
+
+.age-container-button  {
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.age-container-button button {
+    display:flex ;
+    justify-content: center;
+    padding: 10px 50px ;
+    border-radius: 8px;
+    background-color: rgb(220, 255, 183);
+    transition: 1s;
+    border:  2px solid rgb(255, 104, 104);
+}
+
+
